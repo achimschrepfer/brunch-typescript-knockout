@@ -5,8 +5,11 @@ module.exports = {
         }
     },
     modules: {
-		autoRequire: {
-			'app.js': ['app']
-		}
-	}
+        autoRequire: {
+            'app.js': ['app']
+        }
+    },
+    paths: {
+        public: 'wwwroot/'
+    }
 }
